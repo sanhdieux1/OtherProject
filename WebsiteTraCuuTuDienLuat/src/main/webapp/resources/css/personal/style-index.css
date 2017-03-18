@@ -1,0 +1,151 @@
+@font-face {
+   font-family: 'Glyphicons Halflings';
+   src: url('../fonts/glyphicons-halflings-regular.eot');
+   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix')
+      format('embedded-opentype'),
+      url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+      url('../fonts/glyphicons-halflings-regular.ttf')
+      format('truetype'),
+      url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular')
+      format('svg');
+}
+
+/* @CHARSET "UTF-8"; */
+.tab, .show {
+   display: none;
+}
+
+.tab.active, .show.active {
+   display: block;
+}
+
+.art-vmenublock {
+   display: none;
+}
+
+.art-vmenublock.active {
+   display: block;
+}
+
+/* css table information user */
+.tableUserDetails {
+   width: 90%;
+   font-size: medium;
+}
+
+.tableUserDetails td {
+   vertical-align: middle;
+   border: none;
+}
+
+.tableUserDetails tr {
+   height: 40px;
+}
+
+.tableUserDetails td:first-child {
+   width: 150px;
+}
+
+.tableUserDetails input, .tableUserDetails select, .tableUserDetails span
+   {
+   font-size: 12pt;
+   font-weight: bolder;
+}
+
+/*  */
+.gradientText {
+   font-weight: 900;
+   background: linear-gradient(30deg, red, blue, yellow);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+/* Content show  */
+#display ul>li, #display ul>li:before {
+   overflow-y: visible !important;
+   margin: 2px 0 2px 0;
+   padding: 15px 0 15px 0;
+   content: normal;
+}
+
+#display a {
+   color: #337ab7;
+   text-decoration: none;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+
+#display ul {
+   margin: 2px 0 0 2px;
+}
+
+#tabsResultSearch, #listResultSearch {
+   display: none;
+}
+
+#tabsResultSearch.show, #listResultSearch.show {
+   display: block;
+}
+
+.table {
+   display: table;
+   width: 100%;
+}
+
+.tbody, .thead {
+   display: table-row-group;
+}
+
+.tcol {
+   display: table-cell;
+   border-style: ridge;
+   padding: 0px 5px 5px 10px;
+}
+
+.thead {
+   
+}
+
+#table-tudiencanhan .tbody>div:first-child {
+   width: 20%;
+}
+
+#table-tudiencanhan .tbody>div:nth-child(2) {
+   width: 20%;
+}
+
+.title-col {
+   text-transform: uppercase;
+   display: table-cell;
+   border-style: ridge;
+}
+
+.has-error {
+   border-color: #a94442 !important;
+}
+
+#content-session {
+   float: right;
+}
+
+.art-nav {
+   position: static !important;
+}
+
+.itemContent>div:nth-child(2) {
+   float: left;
+   padding-right: 2px;
+}
+
+.itemContent>a {
+   float: right;
+}
+
+.itemContent {
+   border-bottom-style: double;
+   padding-bottom: 20px;
+}
+
+#image a {
+   display: inline-block;
+}

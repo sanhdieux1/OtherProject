@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+.button-upload {
+   border: 1px solid #ccc;
+   display: inline-block;
+   padding: 6px 12px;
+   cursor: pointer;
+}
+
+
+input[disabled] {
+   background-color: #c0c0c0;
+}
+
+.has-error {
+   border-color: #a94442 !important;
+}

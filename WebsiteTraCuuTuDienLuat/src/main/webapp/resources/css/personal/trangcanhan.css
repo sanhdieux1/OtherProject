@@ -1,0 +1,18 @@
+.list-group>div{
+   display: flex;
+}
+.list-group a:nth-child(2){
+   margin: auto;
+   margin-right: 0px;
+}
+.list-group a:first-child{
+   width: 100%;
+}
+#doimatkhau td{
+   border: none;
+}
+
+#doimatkhau td {
+   vertical-align: middle;
+   padding-right: 50px;
+}

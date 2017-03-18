@@ -1,0 +1,18 @@
+.icon_tk {
+    background: url(../images/icon3.png) left 35px no-repeat;
+    padding: 30px 0 0 70px;
+}
+.h_tit span {
+    font-size: 18px;
+    color: #24afe9;
+    text-transform: uppercase;
+    font-family: 'Helvetica-Lt',Arial,Helvetica,sans-serif;
+    line-height: 22px;
+}
+.h_tit p {
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Helvetica-UltLt',Arial,Helvetica,sans-serif;
+    line-height: 36px;
+}

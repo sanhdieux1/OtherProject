@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+
+#validateTip {
+   height: 50px;
+   font-size: medium;
+   font-weight: bolder;
+   text-align: center;
+}
+
+td.details-control {
+   background: url('images/details_open.png') no-repeat center center;
+   cursor: pointer;
+}
+
+tr.shown td.details-control {
+   background: url('images/details_close.png') no-repeat center center;
+}
+
+td.edit-control {
+   background: url('images/edit-icon.png') no-repeat center center;
+   cursor: pointer;
+}
+
+tr.shown td.edit-control {
+   background: url('images/edit-icon.png') no-repeat center center;
+}
+
+td.delete-control {
+   background: url('images/delete-icon.png') no-repeat center center;
+   cursor: pointer;
+}
+
+tr.shown td.delete-control {
+   background: url('images/delete-icon.png') no-repeat center center;
+}
+
+.tab, .show {
+   display: none;
+}
+
+.tab.active, .show.active {
+   display: block;
+}
+
+.my-datatable td {
+   line-height: 30px;
+   border-top: 1px solid #f2f2f2;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   color: #828282;
+   text-align: left;
+}
+
+.my-datatable td:first-child, .my-datatable td:last-child {
+   
+}
+
+.art-article td, .art-article th {
+   border: none;
+}
+
+.tableMedia td {
+   padding: 10px 10px 0 0;
+}
+
+.tableMedia input[type="text"] {
+   width: 200px;
+}
+
+/* LIST WORD  */
+.listWord-content {
+   width: 200px;
+   font-family: Georgia, Times, serif;
+   font-size: 15px;
+   display: table-cell;
+}
+
+.listWord-content ul {
+   list-style: none;
+}
+
+.listWord-content ul li {
+   margin: 0 0 0 0;
+}
+
+.listWord-content ul>li:before {
+   content: none;
+}
+
+.listWord-content ul li a {
+   display: block;
+   text-decoration: none;
+   color: #000000;
+   line-height: 30px;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-color: #CCCCCC;
+   padding-left: 10px;
+   cursor: pointer;
+}
+
+.listWord-content ul li a:hover {
+   color: #FFFFFF;
+   font-weight: bold;
+   background-repeat: repeat-x;
+}
+
+.listWord-content a.active {
+   color: #3F93F4;
+   font-weight: bold;
+   background-repeat: repeat-x;
+}
+
+.listWord-content ul li a strong {
+   margin-right: 10px;
+}
+
+/* display */
+#display li:hover {
+   color: #0000ff;
+   font-weight: bold;
+   background-repeat: repeat-x;
+}
+
+#display {
+   position: absolute;
+}
+
+#display ul {
+   list-style: none;
+   margin: 0 0 0 0px;
+   background-color: white;
+   border-radius: 15px;
+}
+
+#display li {
+   display: block;
+   padding: 7px;
+}
+
+#display a {
+   width: 100%;
+   height: 100%;
+}
+
+/* show - content */
+.show-content {
+   display: table-cell;
+}
+
+.show-content div {
+   margin-left: 5px;
+}
+
+.tableTuDon textarea, .tableTuDon input {
+   width: 500px;
+}
+
+.ui-widget, .ui-widget textarea {
+   font-family: serif;
+   font-size: normal;
+}
+
+/* */
+.multimediaForm, .multimediaEdit {
+   width: 100%;
+   display: table;
+}
+
+.multimediaForm input, .multimediaEdit input {
+   margin: 5px 5px 5px 5px;
+}
+
+/* Table */
+table.dataTable tbody td {
+   
+}
+/* Table dialog edit User */
+.table-dialog-edit-user {
+   width: 90%;
+   margin-left: 50px;
+}
+
+.table-dialog-edit-user tr {
+   height: 50px;
+}
+
+.table-dialog-edit-user td:nth-child(3) {
+   width: 70%;
+}
+
+.table-dialog-edit-user td:nth-child(1) {
+   width: 28%;
+}
+
+.table-dialog-edit-user input {
+   width: 100%;
+   height: 100%;
+}
+
+#tableResultDoc tfoot {
+   display: none;
+}
+table.hide {
+   display: none;
+}
+#tableShowFilesName{
+   width: 100%;
+}
+#tableShowFilesName tr{
+   border-width: 5px;
+   border-top-style: solid;
+   border-top-color: #808080;
+}
+
+#tableShowFilesName tr:nth-child(odd){
+   background-color: #f9f9f9;
+}

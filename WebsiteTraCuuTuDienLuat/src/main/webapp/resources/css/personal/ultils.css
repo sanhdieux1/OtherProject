@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+.mfp-iframe-scaler iframe {
+    background: url('/images/v2/loading.gif') no-repeat scroll center center #000000 !important;
+}

@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+.mfp-ajax-holder .mfp-content{
+	width: 70% !important;
+    background-color: white;
+}
